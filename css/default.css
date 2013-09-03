@@ -36,14 +36,15 @@ h1{
 	font-weight: 200;
 	font-variant: small-caps;
 }
-h2{
-	font-size: 1.5em;
+#grey{
+
 	font-family: 'Montserrat','Lato', Calibri, Arial, sans-serif;
 	font-weight: 200;
 	font-variant: small-caps;
 	color: #999;
 	position: relative;
 	margin-top: -35px;
+	opacity: .5;
 }
 
 #heading_g{
@@ -52,6 +53,7 @@ h2{
 	font-size: 220px;
 	z-index: 1;
 	width: 100%;
+	margin-left: 30px;
 }
 #heading{
 
