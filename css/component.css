@@ -22,23 +22,25 @@ img:hover{
 	margin: 0 auto;
 	list-style: none;
 	text-align: left;
+	position: relative;
+	top: -200px;
 }
 
 .grid li {
 	display: inline-block;
-	width: 420px;
+	width: 50%;
 	margin: 0;
 	padding: 5px;
 	text-align: left;
 	position: relative;
 	float: left;
-	height: 305px;
+	height: 400px;
 
 }
 .grid li img{
 
 	 max-width: 100% !important;
-  max-height: 300px; !important;
+  max-height: 390px; !important;
   margin:0 auto;
 
 
@@ -65,23 +67,27 @@ img:hover{
 	margin: 0 auto;
 	list-style: none;
 	text-align: left;
+	position: relative;
+	top: -200px;
 }
 
 .grid2 li {
 	display: inline-block;
-	width: 420px;
+	width: 50%;
 	margin: 0;
 	padding: 5px;
 	text-align: left;
 	position: relative;
-	float: left;
-	height: 305px;
+	float: right;
+	height: 400px;
+
 }
 .grid2 li img{
 
-	max-width: 100% !important;
-  max-height: 300px !important;
+	 max-width: 90% !important;
+  max-height: 395px; !important;
   margin:0 auto;
+
 
 }
 
@@ -106,24 +112,27 @@ img:hover{
 	margin: 0 auto;
 	list-style: none;
 	text-align: left;
+	position: relative;
+	top: -200px;
 }
 
 .grid3 li {
 	display: inline-block;
-	width: 420px;
+	width: 50%;
 	margin: 0;
 	padding: 5px;
 	text-align: left;
 	position: relative;
-	float: left;
-	height: 305px;
+	float: right;
+	height: 400px;
 
 }
 .grid3 li img{
 
 	 max-width: 100% !important;
-  max-height: 300px !important;
+  max-height: 395px; !important;
   margin:0 auto;
+
 
 }
 
@@ -155,6 +164,8 @@ img:hover{
 	.grid {
 		padding: 10px 10px 0px 10px;
 		float: none;
+		position: relative;
+	top: -0px;
 	}
 	.grid li {
 		width: 50%;
@@ -167,6 +178,8 @@ img:hover{
 	.grid2 {
 		padding: 10px 10px 0px 10px;
 		float: none;
+		position: relative;
+	top: -0px;
 	}
 	.grid2 li {
 		width: 50%;
@@ -179,6 +192,8 @@ img:hover{
 	.grid3 {
 		padding: 10px 10px 0px 10px;
 		float: none;
+		position: relative;
+	top: -0px;
 	}
 	.grid3 li {
 		width: 50%;
