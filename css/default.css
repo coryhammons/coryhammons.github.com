@@ -36,6 +36,11 @@ h1{
 	font-weight: 200;
 	font-variant: small-caps;
 }
+#border{
+	border-top: 2px solid rgba(238, 101, 87, 0.8);
+	border-bottom: 2px solid rgba(22, 166, 182, 0.8);
+	padding-top: -60px;
+}
 #grey{
 
 	font-family: 'Montserrat','Lato', Calibri, Arial, sans-serif;
@@ -48,12 +53,14 @@ h1{
 }
 
 #heading_g{
-	top: -200px;
+	top: -160px;
 	position: relative;
-	font-size: 220px;
+	font-size: 110px;
 	z-index: 1;
 	width: 100%;
-	margin-left: 30px;
+	margin-left: 20px;
+	padding-bottom: 40px;
+	color: rgba(17, 17, 17, 0.8);
 }
 #heading{
 
