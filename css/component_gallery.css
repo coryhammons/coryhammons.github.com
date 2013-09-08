@@ -6,6 +6,9 @@ img
 {
 	z-index: 1;
 }
+#up{
+	top: -100px;
+}
 
 
 .grid {
@@ -143,6 +146,73 @@ img
 	color: #333;
 }
 
+.grid4 {
+	padding: 20px 20px 00px 20px;
+	max-width: 800px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: right;
+	top: -200px;
+	margin-top: -100px;
+	position: relative;
+	float: right;
+	right: -10px;
+}
+
+
+.grid4 li {
+	display: inline-block;
+	width: 800px;
+	padding: 1px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.grid4 figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid4 figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	 -webkit-animation: in 2.5s;
+  -moz-animation: in 2.5s;
+  -o-animation: in 2.5s;
+  animation: in 2.5s;
+}
+
+.grid4 figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: rgba(17, 17, 17, 0.8);
+	color: whitesmoke;
+}
+
+.grid4 figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: whitesmoke;
+	font-weight: 100;
+}
+
+.grid4 figcaption span:before {
+	content: 'by ';
+}
+
+.grid4 figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #333;
+}
 
 
 /* Individual Caption Styles */
@@ -223,6 +293,19 @@ img
 	float: right;
 	right: -10px;
 }
+.grid4 {
+	padding: 20px 20px 100px 20px;
+	max-width: 720px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: right;
+	margin-top: -100px;
+	top: -200px;
+	position: relative;
+	float: right;
+	right: -10px;
+}
+
 #heading_g{
 	top: -150px;
 	left: 50px;
@@ -261,6 +344,28 @@ img
 	float: right;
 	right: -10px;
 }
+.grid4 li {
+	display: inline-block;
+	width: 300px;
+	padding: 1px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	right: 0;
+}
+.grid4 {
+	padding: 20px 20px 100px 20px;
+	max-width: 620px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: right;
+	top: -200px;
+		margin-top: -100px;
+	position: relative;
+	float: right;
+	right: -10px;
+}
+
 #heading_g{
 	top: -150px;
 	left: 100px;
@@ -293,6 +398,17 @@ img
 		width: 100%;
 		min-width: 300px;
 	}
+	.grid4 {
+		padding: 10px 10px 100px 10px;
+			top: 0px;
+	position: relative;
+	right: 0;
+	max-width: 100%;
+	}
+	.grid4 li {
+		width: 100%;
+		min-width: 300px;
+	}
 
 }
 
@@ -315,6 +431,15 @@ img
 	position: relative;
 	}
 	.grid2 li {
+		width: 100%;
+		min-width: 300px;
+	}
+	.grid4 {
+		padding: 10px 10px 100px 10px;
+			top: 0px;
+	position: relative;
+	}
+	.grid4 li {
 		width: 100%;
 		min-width: 300px;
 	}
