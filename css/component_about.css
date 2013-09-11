@@ -1,3 +1,13 @@
+#cory_writing{
+	position: relative;
+	top: -70px;
+	margin-bottom: -100px;
+	width: 45%;
+}
+#cory_about{
+	float: left;
+}
+
 #logo{
 	position: relative;
 	top: -30px;
@@ -136,4 +146,13 @@
 		width: 100%;
 		min-width: 300px;
 	}
+	#cory_writing{
+	position: relative;
+	top: -60px;
+	margin-bottom: -80px;
+	width: 70%;
+}
+#cory_about{
+	float: none;
+}
 }
